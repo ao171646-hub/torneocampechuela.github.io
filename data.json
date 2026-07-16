@@ -1,9 +1,9 @@
 {
   "equipos": [
-    { "nombre": "Real Campechuela", "pj": 3, "g": 2, "e": 1, "p": 0, "gf": 6, "gc": 2 },
-    { "nombre": "Atlético Granma", "pj": 3, "g": 2, "e": 0, "p": 1, "gf": 5, "gc": 3 },
-    { "nombre": "Deportivo Pueblo", "pj": 3, "g": 1, "e": 1, "p": 1, "gf": 3, "gc": 4 },
-    { "nombre": "Juventud FC", "pj": 3, "g": 0, "e": 0, "p": 3, "gf": 1, "gc": 6 }
+    { "nombre": "Young Boys", "pj": 3, "g": 2, "e": 1, "p": 0, "gf": 6, "gc": 2 },
+    { "nombre": "FC Granma", "pj": 3, "g": 2, "e": 0, "p": 1, "gf": 5, "gc": 3 },
+    { "nombre": "La Marina", "pj": 3, "g": 1, "e": 1, "p": 1, "gf": 3, "gc": 4 },
+    { "nombre": "Edificios", "pj": 3, "g": 0, "e": 0, "p": 3, "gf": 1, "gc": 6 }
   ],
 
   "goleadores": [
