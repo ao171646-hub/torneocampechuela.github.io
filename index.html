@@ -2,80 +2,47 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Torneo de Fútbol - Mi Pueblo</title>
+  <title>Torneo de Fútbol</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Torneo de Fútbol - Mi Pueblo</h1>
-    <nav>
-      <a href="#tabla">Tabla de posiciones</a>
-      <a href="#calendario">Calendario de juegos</a>
-      <a href="#goleadores">Goleadores</a>
-    </nav>
-  </header>
 
-  <main>
-    <!-- Tabla de posiciones -->
-    <section id="tabla">
-      <h2>Tabla de posiciones</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Equipo</th>
-            <th>PJ</th>
-            <th>G</th>
-            <th>E</th>
-            <th>P</th>
-            <th>GF</th>
-            <th>GC</th>
-            <th>DG</th>
-            <th>Puntos</th>
-          </tr>
-        </thead>
-        <tbody id="tabla-posiciones">
-          <!-- Se llena con JS -->
-        </tbody>
-      </table>
-    </section>
+<header>
+  <h1>Torneo de Fútbol</h1>
+</header>
 
-    <!-- Calendario de juegos -->
-    <section id="calendario">
-      <h2>Calendario de juegos</h2>
-      <div id="lista-partidos">
-        <!-- Se llena con JS -->
-      </div>
-    </section>
+<main>
 
-    <!-- Registro de goleadores -->
-    <section id="goleadores">
-      <h2>Tabla de goleadores</h2>
-      <h3>Agregar goleador</h3>
-        <form id="form-goleador">
-            <input type="text" id="nuevo-jugador" placeholder="Nombre del jugador" required>
-            <input type="text" id="nuevo-equipo" placeholder="Equipo" required>
-            <input type="number" id="nuevo-goles" placeholder="Goles" required>
-            <button type="submit">Agregar</button>
-        </form>
-      <table>
-        <thead>
-          <tr>
-            <th>Jugador</th>
-            <th>Equipo</th>
-            <th>Goles</th>
-          </tr>
-        </thead>
-        <tbody id="tabla-goleadores">
-          <!-- Se llena con JS -->
-        </tbody>
-      </table>
-    </section>
-  </main>
+  <section>
+    <h2>Tabla de posiciones</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Equipo</th><th>PJ</th><th>G</th><th>E</th><th>P</th>
+          <th>GF</th><th>GC</th><th>DG</th><th>Puntos</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-posiciones"></tbody>
+    </table>
+  </section>
 
-  <footer>
-    <p>Torneo de Fútbol de Mi Pueblo &copy; 2026</p>
-  </footer>
+  <section>
+    <h2>Calendario</h2>
+    <div id="lista-partidos"></div>
+  </section>
 
-  <script src="script.js"></script>
+  <section>
+    <h2>Goleadores</h2>
+    <table>
+      <thead>
+        <tr><th>Jugador</th><th>Equipo</th><th>Goles</th></tr>
+      </thead>
+      <tbody id="tabla-goleadores"></tbody>
+    </table>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
